@@ -5,18 +5,21 @@ class Pet extends Model { }
 
 Pet.init(
     {
-
+//TODO: add what type of animal(dog/cat/goat....)
         name: {
             type: DataTypes.STRING,
             allowNull: false,
         },
+        // TODO: change datatypes?
         age: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL,
             allowNull: false,
         },
+        // TODO: change datatypes
         gender: {
-            type: DataTypes.BIT,
+            type: DataTypes.STRING,
         },
+        // TODO: change datatypes
         weight: {
             type: DataTypes.INTEGER
         },
