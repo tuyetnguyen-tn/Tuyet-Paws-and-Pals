@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS animal_shelter_db;
+DROP DATABASE IF EXISTS animalshelter_db;
 
 CREATE DATABASE animalshelter_db;
 
