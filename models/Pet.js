@@ -9,18 +9,15 @@ Pet.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-        // TODO: change datatypes?
         age: {
-            type: DataTypes.DECIMAL,
+            type: DataTypes.STRING,
             allowNull: false,
         },
-        // TODO: change datatypes
         gender: {
             type: DataTypes.STRING,
         },
-        // TODO: change datatypes
         weight: {
-            type: DataTypes.INTEGER
+            type: DataTypes.STRING,
         },
         description: {
             type: DataTypes.STRING,
