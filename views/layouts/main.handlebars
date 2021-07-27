@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light myNav">
+            <a class="navbar-brand m-5 navTitle" href="#">Pet Shelter</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto m-5">
+                    <li class="nav-item active">
+                        <a class="nav-link m-2" href="#">Home</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="/pets">Our Animals</a>
+                    </li>
+                    {{#if logged_in}}
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="/logout">Logout</a>
+                    </li>
+                    {{else}}
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="/login">Sign In</a>
+                    </li>
+                    {{/if}}
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img src="./images/pets-3715733_1280.jpg" class="titleImg center-align">
+        <div class="text-center m-5">
+            <h2 class="display-4">What We do</h2>
+        </div>
+        <div class="container text-center containerRows">
+            <div class="container text-center w-25">
+                <div class="col card">
+                    <h1 class="bg-light borderBottom">Rescue - Rehabilitation</h1>
+                    <img class="box-4" src="./images/silhouette-1314467_640.png" alt="rescue img">
+                    <div class="">
+                        <p>We put our love and care into making sure .... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum asperiores, tempora eaque provident similique labore odit. Est rem illum eum, voluptatum saepe ipsam! Nesciunt aperiam sint quibusdam officia facilis ratione!</p>
+                    </div>
+                    <a href="#" class="learnMore">Learn More</a>
+                </div>
+            </div>
+            <div class="container text-center w-25">
+                <div class="col card">
+                    <h1 class="bg-light borderBottom">Adoption with Love</h1>
+                    <img class="box-4" src="./images/adopt-2167903_640.png" alt="adopt img">
+                    <div class="">
+                        <p>We put our love and care into making sure .... Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto delectus eaque pariatur illum tempore placeat beatae atque commodi reiciendis, rem eius cumque fugit totam nesciunt ducimus vitae, quos excepturi sint.</p>
+                    </div>
+                    <a href="/ourAnimals" class="learnMore">Learn More</a>
+                </div>
+            </div>
+            <div class="container text-center w-25">
+                <div class="col card">
+                    <h1 class="bg-light borderBottom">Service with Care</h1>
+                    <img class="box-4" src="./images/silhouette-1314467_640.png" alt="care img">
+                    <div class="">
+                        <p>We put our love and care into making sure .... Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, nemo eius, nesciunt enim sunt perferendis alias libero laboriosam at vero deleniti, magnam incidunt ipsam consectetur? Quod, hic iure. Necessitatibus, illum.</p>
+                    </div>
+                    <a href="#" class="learnMore">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h3 class="display-4 text-center p-5">Why choose Us ?</h3>
+            <p class="row card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis veniam neque unde reprehenderit atque. Officiis, sunt totam voluptas ratione odio velit autem incidunt. Illo, nemo modi voluptas eius est incidunt. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat nihil placeat excepturi numquam neque ea omnis modi quia praesentium eius illo similique dignissimos sapiente quibusdam sequi ratione, nisi repudiandae perspiciatis.</p>
+        </div>
+    </main>
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
+</body>
+</html>
