@@ -103,4 +103,34 @@ body {
 .custom-file-container {
     max-width: 400px;
     margin: 0 auto;
-  }
+}
+
+.login-form {
+    margin-top: 100px;
+    text-align: center;
+}
+.signup-form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form-input {
+    margin: 15px;
+}
+
+.inputMarg {
+    margin-top: 300px;
+    width: 500px;
+    height: 500px;
+}
+
+.allInputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputMarg h2 {
+    font-size: 35px;
+    text-align: center;
+}
