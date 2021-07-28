@@ -3,21 +3,27 @@
         "name": "Lulu",
         "age": "2",
         "gender": "male",
-        "weight": "3Lbs",
-        "description": "I am a Rhodesian ridgeback, if you know anything about my breed you will know I am very intelligent. I learn very quickly. I would make a great family pet as long as there are no cats in the house, I don’t like them very much. I do well with other dogs"
+        "weight": 3.0,
+        "date_added": "",
+        "pet_type":"",
+        "description": "I am a Rhodesian ridgeback"
     },
     {
         "name": "Zazu",
         "age": "4",
         "gender": "male",
-        "weight": "2Lbs",
-        "description": " I am the white and tabby cat! If you are looking for the best kitty, no need to look any further. I love everything in life. I love people, cats and dogs. I love giving humans hugs and telling them about my day. I am a 4 year old neutered male and would love to find my fur-ever humans and family soon as I just have so much love to give. Please be my best friend and take me home!"
+        "weight": 2.0,
+        "date_added": "",
+        "pet_type":"",
+        "description": " I am the white and tabby cat!"
     },
     {
         "name": "Aubrey",
         "age": "10",
         "gender": "Female",
-        "weight": "8Lbs",
-        "description": "  I enjoy getting pet and laying your lap I also love when they let me out to roam and the sink is on a trickle and I can stick my paw under the water! So if you could open your heart and home I would love to be your buddy, please let it be my day to have a home soon!"
+        "weight": 8.0,
+        "date_added": "",
+        "pet_type":"",
+        "description": "  I enjoy getting pet and laying on your lap!"
     }
 ]
