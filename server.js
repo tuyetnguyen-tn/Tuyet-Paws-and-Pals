@@ -15,6 +15,7 @@ const sess = {
   secret: 'SecretPassword',
   cookie: {},
   resave: false,
+  maxAge: 100,
   saveUninitialized: true,
   store: new SequelizeStore({
     db: sequelize
