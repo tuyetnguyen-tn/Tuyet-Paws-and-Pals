@@ -100,3 +100,7 @@ body {
 .petCard {
     width: 18rem;
 }
+.custom-file-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }

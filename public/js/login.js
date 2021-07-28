@@ -1,13 +1,15 @@
 let DateTime = luxon.DateTime;
 async function newUserHandler(event) {
     event.preventDefault();
-    const email = document.querySelector('#email_field').value; //needs field id
-    const  password= document.querySelector('#password_field').value; //needs field id
+    const name = document.querySelector('#name-signup').value;
+    const email = document.querySelector('#email-signup').value;
+    const  password= document.querySelector('#password-signup').value;
 
-    // Send fetch request to add a new dish
+    // Send request to create new user.
     const response = await fetch(`/api/users/signup`, {
       method: 'POST',
       body: JSON.stringify({
+        name,
         email,
         password,
       }),
@@ -16,17 +18,18 @@ async function newUserHandler(event) {
       },
     });
     if (response.ok) {
-      document.location.replace('/createuser');///needs change
+      document.location.replace('/');
     } else {
-      alert('Failed to add dish');//needs change
+      alert('Failed to create user');
     }
   }
 
+  // Send request to sign in a user.
   const loginHandler = async (event) => {
     event.preventDefault();
   
-    const email = document.querySelector('#email-login').value.trim();//needs change
-    const password = document.querySelector('#password-login').value.trim();//needs change
+    const email = document.querySelector('#email-login').value.trim();
+    const password = document.querySelector('#password-login').value.trim();
   
     if (email && password) {
       const response = await fetch('/api/users', {
@@ -43,5 +46,5 @@ async function newUserHandler(event) {
     }
   };
   
-  document.querySelector('.new-user-form').addEventListener('submit', newFormHandler);///needs change
-  document.querySelector('.new-user-form').addEventListener('submit', newFormHandler);///needs change
+  document.querySelector('.signup-form').addEventListener('submit', newUserHandler);
+  document.querySelector('.login-form').addEventListener('submit', loginHandler);
