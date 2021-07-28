@@ -1,15 +1,26 @@
 ## Paws and Pals-Pet Shelter
 ## Description
 For this group project, we built a webpage for a small animal shelter that allow people to look at pets that available for adoption , and allow workers to post images and information about pets
+
 ## Final product overview
 web page
 ![](assets/images/screenshot.jpg)
+
 ## User story
 As a Paws-and-Pals's worker<br>
 I WANT to post informations about our pets<br>
 SO THAT I can give the best detais I can so people can find the best pet match and so our animals find a happy home<br>
+
+## Technologies used: 
+Node.js and Express.js to create a RESTful API.
+Handlebars.js as the template engine.
+MySQL and the Sequelize ORM for the database.
+
+## Links: 
+
 ## Credits
 Paws-and-Pals is created and maintained by Mike Scott Tuyet and Jorge
+
 ## License
 MIT License
 Copyright (c) 2021  Mike, Scott, Tuyet and Jorge
