@@ -12,9 +12,9 @@ I WANT to post informations about our pets<br>
 SO THAT I can give the best detais I can so people can find the best pet match and so our animals find a happy home<br>
 
 ## Technologies used: 
-Node.js and Express.js to create a RESTful API.
-Handlebars.js as the template engine.
-MySQL and the Sequelize ORM for the database.
+Node.js and Express.js to create a RESTful API<br>
+Handlebars.js as the template engine<br>
+MySQL and the Sequelize ORM for the database<br>
 
 ## Links: 
 
