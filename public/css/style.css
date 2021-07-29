@@ -134,3 +134,20 @@ body {
     font-size: 35px;
     text-align: center;
 }
+
+.pet-create-form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.addPetCard {
+    margin-top: 200px;
+    height: 650px;
+}
+
+.addImageMarg {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
