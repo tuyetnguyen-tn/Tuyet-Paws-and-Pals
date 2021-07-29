@@ -3,27 +3,30 @@
         "name": "Lulu",
         "age": "2",
         "gender": "male",
-        "weight": 3.0,
-        "date_added": "",
-        "pet_type":"",
-        "description": "I am a Rhodesian ridgeback"
+        "weight": 20.0,
+        "description": "I am a Rhodesian ridgeback",
+        "pet_type":"Dog",
+        "image_name": "Lulu.jpg",
+        "date_posted": "06/20/2000"
     },
     {
         "name": "Zazu",
         "age": "4",
         "gender": "male",
-        "weight": 2.0,
-        "date_added": "",
-        "pet_type":"",
-        "description": " I am the white and tabby cat!"
+        "weight": 10.0,
+        "description": " I am the white and tabby cat!",
+        "pet_type":"Cat",
+        "image_name": "Zazu.jpg",
+        "date_posted": "07/20/2021"
     },
     {
-        "name": "Aubrey",
-        "age": "10",
+        "name": "Nuts",
+        "age": "3",
         "gender": "Female",
-        "weight": 8.0,
-        "date_added": "",
-        "pet_type":"",
-        "description": "  I enjoy getting pet and laying on your lap!"
+        "weight": 2.0,
+        "description": "  I enjoy getting pet and laying on your lap!",
+        "pet_type":"squirrel",
+        "image_name": "Nuts.jpg",
+        "date_posted": "07/22/2021"
     }
 ]
