@@ -13,6 +13,11 @@ const upload = multer({storage: fileStorageEngine});
 
 
 router.post('/single', upload.single('image'), (req, res) => {
+  try{
+
+  }catch{
+    
+  }
     console.log(req.file.originalname);
 });
 
