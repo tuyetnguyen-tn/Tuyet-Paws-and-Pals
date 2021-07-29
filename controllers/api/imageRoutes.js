@@ -13,8 +13,7 @@ const upload = multer({storage: fileStorageEngine});
 
 
 router.post('/single', upload.single('image'), (req, res) => {
-    console.log(req.file);
-res.send('Single file upload success');
+    console.log(req.file.originalname);
 });
 
 module.exports = router;

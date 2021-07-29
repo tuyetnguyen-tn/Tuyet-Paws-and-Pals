@@ -26,7 +26,12 @@
                     </li>
                     {{#if loggedIn}}
                     <li class="nav-item m-2">
-                        <button class="nav-link btn-no-style" id="logout_button">Logout</a>
+                        <a class="nav-link" href="/addpet">Add Pet</a>
+                    </li>
+                    {{/if}}
+                    {{#if loggedIn}}
+                    <li class="nav-item m-2">
+                        <a class="nav-link" id="logout_button">Logout</a>
                     </li>
                     {{else}}
                     <li class="nav-item m-2">
