@@ -23,7 +23,7 @@
         "name": "Nuts",
         "age": "3",
         "gender": "Female",
-        "weight": 2.0,
+        "weight": 1.0,
         "description": "  I enjoy getting pet and laying on your lap!",
         "pet_type":"squirrel",
         "image_name": "Nuts.jpg",
