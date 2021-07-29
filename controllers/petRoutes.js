@@ -12,6 +12,7 @@ router.get('/', async (req, res) => {
       );
   
       res.render('petViewPage', {
+        loggedIn: req.session.loggedIn,
         pets,
       });
     } catch (err) {

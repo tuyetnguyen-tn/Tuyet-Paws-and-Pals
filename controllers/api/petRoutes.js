@@ -15,7 +15,10 @@ router.post('/', async (req, res) => {
       date_posted: req.body.date_posted,
     });
     // if the dish is successfully created, the new response will be returned as json
-    res.status(200).json(petData)
+    req.session.save(() => {
+      req.session.loggedIn = true;
+      res.status(200).json(petData);
+    });
   } catch (err) {
     console.log(err);
     res.status(400).json(err);
