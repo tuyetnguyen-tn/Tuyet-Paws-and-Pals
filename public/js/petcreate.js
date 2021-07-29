@@ -1,14 +1,15 @@
-let DateTime = luxon.DateTime;
+let DateTime = luxon.DateTime.local();
 async function newPetHandler(event) {
     event.preventDefault();
-    const name = document.querySelector('#name_field').value; //needs field id
-    const age = document.querySelector('#age_field').value; //needs field id
-    const gender = document.querySelector('#gender_field').value; //needs field id
-    const weight = document.querySelector('#weight_field').value; //needs field id
-    const description = document.querySelector('#description_field').value; //needs field id
-    const pet_type = document.querySelector('#pet_type_field').value; //needs field id
-    const image_name = document.querySelector('#pet_type_field').value;//needs field id
-    const date_posted = DateTime.toLocaleString();
+    const name = document.querySelector('#pet-name-field').value;
+    const age = document.querySelector('#pet-age-field').value;
+    const gender = document.querySelector('#pet-gender-field').value;
+    const weight = document.querySelector('#pet-weight-field').value;
+    const description = document.querySelector('#pet-description-field').value;
+    const pet_type = document.querySelector('#pet-type-field').value;
+    let image_name = "dexter.jpg";
+    const date_posted = DateTime.toLocaleString(DateTime.DATE_SHORT);
+    console.log(DateTime.toLocaleString(DateTime.DATE_SHORT));
     // Send fetch request to add a new dish
     const response = await fetch(`/api/pets`, {
       method: 'POST',
@@ -27,10 +28,11 @@ async function newPetHandler(event) {
       },
     });
     if (response.ok) {
-      document.location.replace('/');///needs change
+      console.log("hey there");
+      document.location.replace('/');
     } else {
-      alert('Failed to add pet!');//needs change
+      alert('Failed to add pet!');
     }
   }
   
-  document.querySelector('.new-pet-form').addEventListener('submit', newPetHandler);///needs change
+  document.querySelector('.pet-create-form').addEventListener('submit', newPetHandler);
