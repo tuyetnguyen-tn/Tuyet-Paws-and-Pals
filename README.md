@@ -14,6 +14,9 @@ MySQL and the Sequelize ORM for the database<br>
 bcrypt, dotenv, RESTful Routes, ESLint and others.
 
 ## Links: 
+https://sleepy-cove-71764.herokuapp.com/
+https://github.com/stessman/Project-2
+
 
 ## Credits
 Paws-and-Pals is created and maintained by Mike Scott Tuyet and Jorge
