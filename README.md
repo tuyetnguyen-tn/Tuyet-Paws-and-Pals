@@ -14,7 +14,7 @@ MySQL and the Sequelize ORM for the database<br>
 bcrypt, dotenv, RESTful Routes, ESLint and others.
 
 ## Links: 
-https://sleepy-cove-71764.herokuapp.com/
+https://sleepy-cove-71764.herokuapp.com/<br>
 https://github.com/stessman/Project-2
 
 
