@@ -13,7 +13,11 @@ Handlebars.js as the template engine<br>
 MySQL and the Sequelize ORM for the database<br>
 bcrypt, dotenv, RESTful Routes, ESLint and others.
 
-![](public/images/homepage.PNG)
+## Final product overview
+web page
+
+![](public/images/homepage.PNG)<br>
+![](public/images/homepage2.PNG)
 
 ## Links: 
 https://sleepy-cove-71764.herokuapp.com/<br>
