@@ -11,9 +11,19 @@ SO THAT I can give the best detais I can so people can find the best pet match a
 Node.js and Express.js to create a RESTful API<br>
 Handlebars.js as the template engine<br>
 MySQL and the Sequelize ORM for the database<br>
-bcrypt, dotenv, RESTful Routes, ESLint and others.
+bcrypt, dotenv, RESTful Routes, ESLint<br>
+Multer to upload images
+
+## Final product overview
+web page
+
+![](public/images/homepage.PNG)<br>
+![](public/images/homepage2.PNG)
 
 ## Links: 
+https://sleepy-cove-71764.herokuapp.com/<br>
+https://github.com/stessman/Project-2
+
 
 ## Credits
 Paws-and-Pals is created and maintained by Mike Scott Tuyet and Jorge
