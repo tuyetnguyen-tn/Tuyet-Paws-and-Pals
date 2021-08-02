@@ -8,6 +8,7 @@ async function newPetHandler(event) {
     const description = document.querySelector('#pet-description-field').value;
     const pet_type = document.querySelector('#pet-type-field').value;
     let image_name = "dexter.jpg";
+    let image_url = ""
     const date_posted = DateTime.toLocaleString(DateTime.DATE_SHORT);
     console.log(DateTime.toLocaleString(DateTime.DATE_SHORT));
     // Send fetch request to add a new dish
@@ -21,6 +22,7 @@ async function newPetHandler(event) {
         description,
         pet_type,
         image_name,
+        image_url,
         date_posted,
       }),
       headers: {

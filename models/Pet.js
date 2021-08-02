@@ -39,6 +39,10 @@ Pet.init(
         type: DataTypes.STRING,
         allowNull: false,
       },
+      image_url: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
     date_posted: {
         type: DataTypes.STRING,
         allowNull: false,
